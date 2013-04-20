@@ -1,0 +1,9 @@
+#UpButton {
+	background-image:url("upbutton.png");
+	width:64px;
+	height:64px;
+	bottom: 15px;
+	right: 15px;
+	position: fixed;
+	visibility: hidden;
+}

@@ -35,6 +35,7 @@
 		function scrollTopClick() {
 			if (document.body.scrollTop) {
 				document.body.scrollTop = 0;
+				hideButton();
 			}
 			else if (document.documentElement.scrollTop) {
 				document.documentElement.scrollTop = 0;
@@ -43,12 +44,8 @@
 		}
 
 		function createButton() {                    
-			var btn = document.createElement("img");
-			btn.src = "upbutton.png";
-			btn.style.position = "fixed";
-			btn.style.bottom = "15px";                    
-			btn.style.right = "15px";
-			btn.style.visibility = "hidden";
+			var btn = document.createElement("div");
+			btn.id = "UpButton";
 			
 			if ( btn.addEventListener) {
 				btn.addEventListener("click", scrollTopClick, false); 
