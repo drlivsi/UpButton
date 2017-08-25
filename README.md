@@ -1,4 +1,5 @@
 UpButton
 ========
 
-Button to scroll browser page up to upper part this page
+Button to scroll the browser page to the top of this page
+Demo - http://forumsmile.ru/cards
